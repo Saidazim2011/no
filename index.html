@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="gif-poke.gif.png" alt="" class="dima">
+        <div class="input-elements">
+            <input type="text" id="searchPokemon" placeholder="search your pokemon">
+            <select id="sortSelect">
+                <option value="nameAsc">A-Z</option>
+                <option value="nameDesc">Z-A</option>
+                <option value="weightAsc">С самого лёгкого до тяжёлого</option>
+                <option value="weightDesc">С самого тяжёлого до лёгкого</option>
+              </select>
+              <input type="submit" class="searchButton">    
+            </div>
+
+        <div class="containerPokemons">
+            <div class="card">
+                <h1 class="pokemon-name">Bulbasaur</h1>
+                <img src="Bulbasaur.png" alt="" class="pokemon-img">
+                <p class="pokemon-type">
+                    Grass Poison
+                </p>
+                <p class="pokemon-weight">
+                    6.9 kg
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="pokemons.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
